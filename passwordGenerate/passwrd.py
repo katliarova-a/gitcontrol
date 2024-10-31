@@ -11,4 +11,12 @@ ui = Ui_MainWindow()
 ui.setupUi(MainWindow)
 MainWindow.show()
 
+width = 8
+
+def changeWidth():
+    global width
+    width = ui.horizontalSlider.value()
+    ui.label_3.setText(str(width))
+
+ui.horizontalSlider.valueChanged.connect(changeWidth)
 sys.exit(app.exec())
