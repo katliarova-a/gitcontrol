@@ -15,7 +15,7 @@
   </property>
   <property name="windowIcon">
    <iconset>
-    <normaloff>icon.png</normaloff>icon.png</iconset>
+    <normaloff>../icon.png</normaloff>../icon.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label">
@@ -76,6 +76,9 @@
     </property>
    </widget>
    <widget class="QPlainTextEdit" name="plainTextEdit">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>30</x>
@@ -100,7 +103,7 @@
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(219, 216, 222);</string>
+     <string notr="true">background-color: rgb(129, 169, 222);</string>
     </property>
     <property name="text">
      <string>Generate</string>
@@ -221,6 +224,9 @@ QSlider::sub-page:horizontal {
        <width>70</width>
        <height>17</height>
       </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
      </property>
      <property name="text">
       <string>0 - 9</string>
