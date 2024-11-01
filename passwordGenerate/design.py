@@ -36,7 +36,7 @@ class Ui_MainWindow(object):
         self.label_2.setWordWrap(False)
         self.label_2.setObjectName("label_2")
         self.plainTextEdit = QtWidgets.QPlainTextEdit(parent=self.centralwidget)
-        self.plainTextEdit.setEnabled(False)
+        self.plainTextEdit.setEnabled(True)
         self.plainTextEdit.setGeometry(QtCore.QRect(30, 170, 271, 31))
         self.plainTextEdit.setObjectName("plainTextEdit")
         self.pushButton = QtWidgets.QPushButton(parent=self.centralwidget)
